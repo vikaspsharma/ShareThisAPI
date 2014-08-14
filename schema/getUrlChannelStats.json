@@ -1,0 +1,751 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "data": {
+            "type": "object",
+            "id": "http://jsonschema.net/data",
+            "required": false,
+            "properties": {
+                "channel_totals_lifetime": {
+                    "type": "object",
+                    "id": "http://jsonschema.net/data/channel_totals_lifetime",
+                    "required": false,
+                    "properties": {
+                        "adfty": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/adfty",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/adfty/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/adfty/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/adfty/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/adfty/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "blogger": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/blogger",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogger/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogger/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogger/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogger/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "blogmarks": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/blogmarks",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogmarks/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogmarks/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogmarks/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/blogmarks/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "email": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/email",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/email/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/email/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/email/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/email/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "evernote": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/evernote",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/evernote/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/evernote/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/evernote/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/evernote/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "facebook": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/facebook",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/facebook/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/facebook/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/facebook/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/facebook/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "funp": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/funp",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/funp/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/funp/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/funp/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/funp/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "google_bmarks": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/google_bmarks",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_bmarks/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_bmarks/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_bmarks/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_bmarks/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "google_translate": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/google_translate",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_translate/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_translate/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_translate/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google_translate/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "google": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/google",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/google/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "googleplus": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/googleplus",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/googleplus/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/googleplus/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/googleplus/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/googleplus/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "instagram": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/instagram",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/instagram/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/instagram/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/instagram/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/instagram/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "linkedin": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/linkedin",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/linkedin/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/linkedin/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/linkedin/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/linkedin/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "myspace": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/myspace",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/myspace/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/myspace/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/myspace/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/myspace/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "odnoklassniki": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/odnoklassniki",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/odnoklassniki/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/odnoklassniki/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/odnoklassniki/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/odnoklassniki/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "pinterest": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/pinterest",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/pinterest/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/pinterest/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/pinterest/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/pinterest/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "reddit": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/reddit",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/reddit/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/reddit/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/reddit/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/reddit/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "tumblr": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/tumblr",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/tumblr/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/tumblr/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/tumblr/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/tumblr/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "twitter": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/twitter",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/twitter/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/twitter/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/twitter/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/twitter/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "typepad": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/typepad",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/typepad/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/typepad/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/typepad/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/typepad/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "virb": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/virb",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/virb/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/virb/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/virb/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/virb/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "wordpress": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/wordpress",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/wordpress/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/wordpress/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/wordpress/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/wordpress/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "xing": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/xing",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/xing/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/xing/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/xing/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/xing/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "yammer": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/data/channel_totals_lifetime/yammer",
+                            "required": false,
+                            "properties": {
+                                "channel": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/yammer/channel",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/yammer/clicks",
+                                    "required": false
+                                },
+                                "shares": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/yammer/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "number",
+                                    "id": "http://jsonschema.net/data/channel_totals_lifetime/yammer/traffic",
+                                    "required": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "channel_totals": {
+                    "type": "array",
+                    "id": "http://jsonschema.net/data/channel_totals",
+                    "required": false,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/data/channel_totals/0",
+                        "required": false,
+                        "properties": {
+                            "channel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/channel_totals/0/channel",
+                                "required": false
+                            },
+                            "clicks": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/channel_totals/0/clicks",
+                                "required": false
+                            },
+                            "shares": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/channel_totals/0/shares",
+                                "required": false
+                            },
+                            "traffic": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/channel_totals/0/traffic",
+                                "required": false
+                            }
+                        }
+                    }
+                },
+                "daily_totals": {
+                    "type": "array",
+                    "id": "http://jsonschema.net/data/daily_totals",
+                    "required": false,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/data/daily_totals/0",
+                        "required": false,
+                        "properties": {
+                            "clicks": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/daily_totals/0/clicks",
+                                "required": false
+                            },
+                            "date": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/daily_totals/0/date",
+                                "required": true,
+                                "pattern": "[0-1][0-9]/[0-9][0-9]"
+                            },
+                            "datekey": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/daily_totals/0/datekey",
+                                "required": true,
+                                "pattern": "(20)[0-9][0-9][0-1][0-9][0-3][0-9]"
+                            },
+                            "shares": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/daily_totals/0/shares",
+                                "required": false
+                            },
+                            "traffic": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/daily_totals/0/traffic",
+                                "required": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "interval": {
+            "type": "string",
+            "id": "http://jsonschema.net/interval",
+            "required": false
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": true
+        }
+    }
+}

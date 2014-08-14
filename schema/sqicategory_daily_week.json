@@ -1,0 +1,1547 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "b-pd-sqi-category-daily": {
+            "type": "object",
+            "id": "http://jsonschema.net/b-pd-sqi-category-daily",
+            "required": false,
+            "properties": {
+                "b-pd-sqi-category-daily": {
+                    "type": "object",
+                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily",
+                    "required": false,
+                    "properties": {
+                        "20140706": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive/pubdomain",
+                                           "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive/rowkey",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business/category",
+                                            "required": false
+                                        },
+                                         "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business/pubdomain",
+                                           "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty/category",
+                                            "required": false
+                                        },
+                                         "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty/rowkey",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_beauty/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                         "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "20140707": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                         "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140706/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/category",
+                                            "required": false
+                                        },
+                                       "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/pubdomain",
+                                           "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_beauty/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_beauty/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                       "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/pubdomain",
+                                         "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/rowkey",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140707/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "20140708": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                         "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/rowkey",
+                                         "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/rowkey",
+                                          "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_beauty/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_beauty/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140708/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "20140709": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/pubdomain",
+                                           "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/rowkey",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_beauty/day",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_beauty/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140709/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "20140710": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/day",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/rowkey",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/day",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/pubdomain",
+                                           "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/day",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/pubdomain",
+                                          "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/day",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_beauty/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/pubdomain",
+                                           "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140710/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "20140711": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/day",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/rowkey",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_beauty/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/day",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140711/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "20140712": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712",
+                            "required": false,
+                            "properties": {
+                                "arts_and_entertainment": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/day",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/arts_and_entertainment/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "automotive": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/day",
+                                          "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/automotive/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "business": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/day",
+                                             "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/pubdomain",
+                                            "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/rowkey",
+                                           "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/business/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                },
+                                "shopping_beauty": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_beauty",
+                                    "required": false,
+                                    "properties": {
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_beauty/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_beauty/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        }
+                                    }
+                                },
+                                "shopping_clothing": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing",
+                                    "required": false,
+                                    "properties": {
+                                        "category": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/category",
+                                            "required": false
+                                        },
+                                        "day": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/day",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                        },
+                                        "pubdomain": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/pubdomain",
+                                             "required": true,
+											"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                        },
+                                        "ranka": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/ranka",
+                                            "required": false
+                                        },
+                                        "rankb": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/rankb",
+                                            "required": false
+                                        },
+                                        "rowkey": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/rowkey",
+                                            "required": true,
+											"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-z]*:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}" 
+                                        },
+                                        "sqi": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/b-pd-sqi-category-daily/b-pd-sqi-category-daily/20140712/shopping_clothing/sqi",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": false
+        }
+    }
+}

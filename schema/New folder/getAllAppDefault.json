@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "cns": {
+            "type": "object",
+            "id": "http://jsonschema.net/cns",
+            "required": false,
+            "properties": {
+                "doNotCopy": {
+                    "type": "boolean",
+                    "id": "http://jsonschema.net/cns/doNotCopy",
+                    "required": false
+                },
+                "doNotHash": {
+                    "type": "boolean",
+                    "id": "http://jsonschema.net/cns/doNotHash",
+                    "required": false
+                },
+                "hashAddressBar": {
+                    "type": "boolean",
+                    "id": "http://jsonschema.net/cns/hashAddressBar",
+                    "required": false
+                }
+            }
+        },
+        "migration": {
+            "type": "object",
+            "id": "http://jsonschema.net/migration",
+            "required": false,
+            "properties": {
+                "version": {
+                    "type": "boolean",
+                    "id": "http://jsonschema.net/migration/version",
+                    "required": false
+                }
+            }
+        },
+        "snapsets": {
+            "type": "object",
+            "id": "http://jsonschema.net/snapsets",
+            "required": false,
+            "properties": {
+                "snapsets": {
+                    "type": "boolean",
+                    "id": "http://jsonschema.net/snapsets/snapsets",
+                    "required": false
+                }
+            }
+        }
+    }
+}

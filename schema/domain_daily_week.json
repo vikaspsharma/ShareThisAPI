@@ -1,0 +1,664 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "b-pd-domain-daily": {
+            "type": "object",
+            "id": "http://jsonschema.net/b-pd-domain-daily",
+            "required": false,
+            "properties": {
+                "b-pd-domain-daily": {
+                    "type": "object",
+                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily",
+                    "required": true,
+                    "properties": {
+                        "20140706": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140706/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "20140707": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140707/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "20140708": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140708/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "20140709": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140709/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "20140710": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140710/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "20140711": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140711/traffic",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "20140712": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712",
+                            "required": false,
+                            "properties": {
+                                "autoshares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/autoshares",
+                                    "required": false
+                                },
+                                "clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/copy_add_bar_clicks",
+                                    "required": false
+                                },
+                                "copy_add_bar_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/copy_add_bar_shares",
+                                    "required": false
+                                },
+                                "copy_text_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/copy_text_clicks",
+                                    "required": false
+                                },
+                                "copy_text_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/copy_text_shares",
+                                    "required": false
+                                },
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "domain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/domain",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "mobile_clicks": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/mobile_clicks",
+                                    "required": false
+                                },
+                                "mobile_pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/mobile_pviews",
+                                    "required": false
+                                },
+                                "mobile_shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/mobile_shares",
+                                    "required": false
+                                },
+                                "publisher": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/publisher",
+                                    "required": true,
+									"pattern": "[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                                },
+                                "pviews": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/pviews",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}"
+                                },
+                                "shares": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/shares",
+                                    "required": false
+                                },
+                                "traffic": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-domain-daily/b-pd-domain-daily/20140712/traffic",
+                                    "required": false
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": true
+        }
+    }
+}

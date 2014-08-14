@@ -1,0 +1,77 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "clicks_total": {
+            "type": "number",
+            "id": "http://jsonschema.net/clicks_total",
+            "required": true
+        },
+        "digg": {
+            "type": "number",
+            "id": "http://jsonschema.net/digg",
+            "required": false
+        },
+        "email": {
+            "type": "number",
+            "id": "http://jsonschema.net/email",
+            "required": false
+        },
+        "facebook": {
+            "type": "number",
+            "id": "http://jsonschema.net/facebook",
+            "required": false
+        },
+        "google": {
+            "type": "number",
+            "id": "http://jsonschema.net/google",
+            "required": false
+        },
+        "shares": {
+            "type": "object",
+            "id": "http://jsonschema.net/shares",
+            "required": false,
+            "properties": {
+                "all": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/shares/all",
+                    "required": false
+                },
+                "email": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/shares/email",
+                    "required": false
+                },
+                "facebook": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/shares/facebook",
+                    "required": false
+                }
+            }
+        },
+        "total": {
+            "type": "number",
+            "id": "http://jsonschema.net/total",
+            "required": true
+        },
+        "url": {
+            "type": "string",
+            "id": "http://jsonschema.net/url",
+            "required": false,
+            "properties": {
+                "RenameMe": {
+                    "name": "patternMatch",
+					"pattern":"(http|https):\/\/[w|W]{3}.[a-zA-Z0-9]*.(com|co.in|net)\/[a-zA-Z0-9/-]*",
+                    "required": true
+                }
+            }
+        },
+        "yahoo": {
+            "type": "number",
+            "id": "http://jsonschema.net/yahoo",
+            "required": false
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "data": {
+            "type": "object",
+            "id": "http://jsonschema.net/data",
+            "required": false,
+            "properties": {
+                "sharURL": {
+                    "type": "string",
+                    "id": "http://jsonschema.net/data/sharURL",
+                    "required": true,
+                    "pattern": "(http):?//(shar.es)/[a-zA-Z0-9]{5}"
+                }
+            }
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": true
+        }
+    }
+}

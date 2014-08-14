@@ -1,0 +1,60 @@
+{
+	"mapping" : [
+		{
+			"url": "http://rest.sharethis.com/v1/count/urlinfo?url=http%253A%252F%252Fwww.ajc.com%252Fnews%252Fnews%252Fstate-regional-govt-politics%252Fbarr-loudermilk-spar-over-jefferson-and-borat-show%252FngdDx%252F&api_key=f96gx879tkfgg3b6us4fb642",
+			"schema_file_name": "urlInfo.json"
+		},
+		{
+			"url": "http://rest.sharethis.com/analytics/V2/getDomainStats.php?domain=www.sharethis.com&from_date=2014-07-01&to_date=2014-07-05&pub_key=6beba854-ee6d-4ae1-a4f3-b69815c8ef63&access_key=8142fa756b1061869723752bf55e3600",
+			"schema_file_name": "getDomainStats.json"
+		},
+		{
+			"url": "http://rest.sharethis.com/v1/trending/live?range=36000&domain=www.sharethis.com&return=json&api_key=f96gx879tkfgg3b6us4fb642",
+			"schema_file_name": "trending.json"
+		},
+		{
+			"url": "http://rest.sharethis.com/v1/share/shorten?url=http://www.sharethis.com&api_key=f96gx879tkfgg3b6us4fb642",
+			"schema_file_name": "shortenUrl.json"
+		},
+		{
+			"url": "http://rest.sharethis.com/analytics/V2/getTopUrlStats.php?domain=www.sharethis.com&pub_key=6beba854-ee6d-4ae1-a4f3-b69815c8ef63&access_key=8142fa756b1061869723752bf55e3600",
+			"schema_file_name": "getTopUrlStats.json"
+		},
+		{
+			"url": "http://rest.sharethis.com/analytics/V2/getUrlChannelStats.php?domain=www.sharethis.com&urlhash=ceb79890edcafc2e3fc296cce3c06660&from_date=2014-07-04&to_date=2014-07-06&pub_key=6beba854-ee6d-4ae1-a4f3-b69815c8ef63&access_key=8142fa756b1061869723752bf55e3600",
+			"schema_file_name": "getUrlChannelStats.json"
+		} ,
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=www.travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"schema_file_name": "sqi_daily_day.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=www.travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"schema_file_name": "sqi_daily_week.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domain-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"schema_file_name": "domain_daily_day.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domain-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"schema_file_name": "domain_daily_week.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domainchannel-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"schema_file_name": "domainchannel_daily_day.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domainchannel-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"schema_file_name": "domainchannel_daily_week.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?category=arts_and_entertainment%2Cautomotive%2Cshopping_beauty%2Cbusiness%2Cshopping_clothing&domain=travelchannel.com&filter=&hour=2014071620&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-category-daily&multigetset=category&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"schema_file_name": "sqicategory_daily_day.json"
+		},
+		{
+			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?category=arts_and_entertainment%2Cautomotive%2Cshopping_beauty%2Cbusiness%2Cshopping_clothing&domain=travelchannel.com&filter=&hour=2014071620&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-category-daily&multigetset=category&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"schema_file_name": "sqicategory_daily_week.json"
+		}
+	]
+}

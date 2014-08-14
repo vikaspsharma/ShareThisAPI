@@ -1,0 +1,136 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "data": {
+            "type": "object",
+            "id": "http://jsonschema.net/data",
+            "required": false,
+            "properties": {
+                "channel_summary": {
+                    "type": "array",
+                    "minitems": "1",
+                    "id": "http://jsonschema.net/data/channel_summary",
+                    "required": true,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/data/channel_summary/0",
+                        "required": false,
+                        "properties": {
+                            "channel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/channel_summary/0/channel",
+                                "required": false
+                            },
+                            "clicks": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/channel_summary/0/clicks",
+                                "required": false
+                            },
+                            "shares": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/channel_summary/0/shares",
+                                "required": false
+                            },
+                            "traffic": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/channel_summary/0/traffic",
+                                "required": false
+                            }
+                        }
+                    }
+                },
+                "domain_summary": {
+                    "type": "array",
+                    "minitems": "1",
+                    "id": "http://jsonschema.net/data/domain_summary",
+                    "required": true,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/data/domain_summary/0",
+                        "required": false,
+                        "properties": {
+                            "channel_stats": {
+                                "type": "array",
+                                "minitems": "1",
+                                "id": "http://jsonschema.net/data/domain_summary/0/channel_stats",
+                                "required": true,
+                                "items": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/data/domain_summary/0/channel_stats/0",
+                                    "required": false,
+                                    "properties": {
+                                        "channel": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/data/domain_summary/0/channel_stats/0/channel",
+                                            "required": false
+                                        },
+                                        "clicks": {
+                                            "type": "number",
+                                            "id": "http://jsonschema.net/data/domain_summary/0/channel_stats/0/clicks",
+                                            "required": false
+                                        },
+                                        "shares": {
+                                            "type": "number",
+                                            "id": "http://jsonschema.net/data/domain_summary/0/channel_stats/0/shares",
+                                            "required": false
+                                        },
+                                        "traffic": {
+                                            "type": "number",
+                                            "id": "http://jsonschema.net/data/domain_summary/0/channel_stats/0/traffic",
+                                            "required": false
+                                        }
+                                    }
+                                }
+                            },
+                            "clicks": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/domain_summary/0/clicks",
+                                "required": false
+                            },
+                            "date": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/domain_summary/0/date",
+                                "required": false
+                            },
+                            "shares": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/domain_summary/0/shares",
+                                "required": false
+                            },
+                            "traffic": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/domain_summary/0/traffic",
+                                "required": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "from_date": {
+            "type": "string",
+            "id": "http://jsonschema.net/from_date",
+            "required": true,
+            "pattern": "[0-9]{8}"
+        },
+        "interval": {
+            "type": "string",
+            "id": "http://jsonschema.net/interval",
+            "required": false
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": false
+        },
+        "to_date": {
+            "type": "string",
+            "id": "http://jsonschema.net/to_date",
+            "required": true,
+            "pattern": "[0-9]{8}"
+        }
+    }
+}

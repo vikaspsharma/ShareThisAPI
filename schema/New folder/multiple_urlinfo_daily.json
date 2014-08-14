@@ -1,0 +1,152 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": true
+        },
+        "urlinfo": {
+            "type": "object",
+            "id": "http://jsonschema.net/urlinfo",
+            "required": true,
+            "properties": {
+                "urlinfo": {
+                    "type": "array",
+                    "minitems": "1",
+                    "id": "http://jsonschema.net/urlinfo/urlinfo",
+                    "required": false,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/urlinfo/urlinfo/0",
+                        "required": false,
+                        "properties": {
+                            "domain": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/domain",
+                                "required": true,
+								"pattern":"[A-Za-z]*.[A-Za-z0-9]{2,}"
+                            },
+                            "imagehash250": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/imagehash250",
+                                "required": false
+                            },
+                            "imagehash": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/imagehash",
+                                "required": true,
+								"pattern":"20[0-9][0-9][0|1][0-9][0-3][0-9]\/[0-9a-zA-z]{32}"
+                            },
+                            "img": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/img",
+                                "required": true
+                            },
+                            "inputurl": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/inputurl",
+                                "required": true
+                            },
+                            "keywords": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/keywords",
+                                "required": true
+                            },
+                            "lang": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/lang",
+                                "required": false
+                            },
+                            "pid": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/pid",
+                                "required": true
+                            },
+                            "snippet": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/snippet",
+                                "required": true
+                            },
+                            "stop_fail": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/stop_fail",
+                                "required": false
+                            },
+                            "text": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/text",
+                                "required": true
+                            },
+                            "title": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/title",
+                                "required": true
+                            },
+                            "topic2": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic2",
+                                "required": false
+                            },
+                            "topic3": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic3",
+                                "required": false
+                            },
+                            "topic406": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic406",
+                                "required": false
+                            },
+                            "topic4": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic4",
+                                "required": false
+                            },
+                            "topic50": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic50",
+                                "required": false
+                            },
+                            "topic5": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic5",
+                                "required": false
+                            },
+                            "topic99": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topic99",
+                                "required": false
+                            },
+                            "topics": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/topics",
+                                "required": false
+                            },
+                            "url": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/url",
+                                "required": true,
+								"pattern":"[a-zA-Z0-9:]*.[A-Za-z0-9]*.[A-Za-z0-9]{2,}"
+                            },
+                            "urlhash": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/urlhash",
+                                "required": true,
+								"pattern":"[a-zA-Z0-9]{32}"
+                            },
+                            "version": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/urlinfo/urlinfo/0/version",
+                                "required": false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

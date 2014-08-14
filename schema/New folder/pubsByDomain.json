@@ -1,0 +1,48 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "data": {
+            "type": "object",
+            "id": "http://jsonschema.net/data",
+            "required": false,
+            "properties": {
+                "count": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/data/count",
+                    "required": true
+                },
+                "domain": {
+                    "type": "array",
+                    "id": "http://jsonschema.net/data/domain",
+                    "required": false,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/data/domain/0",
+                        "required": true,
+                        "properties": {
+                            "PublisherKey": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/domain/0/PublisherKey",
+                                "required": true,
+                                "pattern": "[a-zA-z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": false
+        },
+        "success": {
+            "type": "boolean",
+            "id": "http://jsonschema.net/success",
+            "required": false
+        }
+    }
+}

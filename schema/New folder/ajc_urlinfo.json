@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": true,
+    "properties": {
+        "total": {
+            "type": "object",
+            "id": "http://jsonschema.net/total",
+            "required": true,
+            "properties": {
+                "inbound": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/total/inbound",
+                    "required": true
+                },
+                "outbound": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/total/outbound",
+                    "required": true
+                }
+            }
+        }
+    }
+}

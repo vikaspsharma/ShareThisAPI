@@ -1,0 +1,82 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "data": {
+            "type": "object",
+            "id": "http://jsonschema.net/data",
+            "required": false,
+            "properties": {
+                "top_urls_summary": {
+                    "type": "array",
+                    "id": "http://jsonschema.net/data/top_urls_summary",
+                    "required": true,
+                    "items": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/data/top_urls_summary/0",
+                        "required": true,
+                        "properties": {
+                            "clicks": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/top_urls_summary/0/clicks",
+                                "required": false
+                            },
+                            "domain": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/top_urls_summary/0/domain",
+                                "required": true
+                            },
+                            "shares": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/top_urls_summary/0/shares",
+                                "required": false
+                            },
+                            "traffic": {
+                                "type": "number",
+                                "id": "http://jsonschema.net/data/top_urls_summary/0/traffic",
+                                "required": false
+                            },
+                            "url": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/top_urls_summary/0/url",
+                                "required": true
+                            },
+                            "urlhash": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/data/top_urls_summary/0/urlhash",
+                                "required": true,
+                                "patternProperties": {
+                                    "urlhashName": "[a-z0-9]{32} "
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "from_date": {
+            "type": "string",
+            "id": "http://jsonschema.net/from_date",
+            "required": true,
+            "pattern": "(20)[0-9][0-9][0-1][0-9][0-3][0-9]"
+        },
+        "interval": {
+            "type": "string",
+            "id": "http://jsonschema.net/interval",
+            "required": false
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": true
+        },
+        "to_date": {
+            "type": "string",
+            "id": "http://jsonschema.net/to_date",
+            "required": true,
+            "pattern": "(20)[0-9][0-9][0-1][0-9][0-3][0-9]"
+        }
+    }
+}

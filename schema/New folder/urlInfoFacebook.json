@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "facebook": {
+            "type": "object",
+            "id": "http://jsonschema.net/facebook",
+            "required": true,
+            "pattern": "facebook",
+            "properties": {
+                "inbound": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/inbound",
+                    "required": true
+                },
+                "outbound": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/outbound",
+                    "required": true
+                }
+            }
+        }
+    }
+}

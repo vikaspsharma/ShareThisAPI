@@ -1,0 +1,399 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "facebook": {
+            "type": "object",
+            "id": "http://jsonschema.net/facebook",
+            "required": false,
+            "properties": {
+                "click_count": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/click_count",
+                    "required": false
+                },
+                "comment_count": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/comment_count",
+                    "required": false
+                },
+                "like_count": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/like_count",
+                    "required": false
+                },
+                "share_count": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/share_count",
+                    "required": false
+                },
+                "total_count": {
+                    "type": "number",
+                    "id": "http://jsonschema.net/facebook/total_count",
+                    "required": false
+                }
+            }
+        },
+        "linkedin": {
+            "type": "number",
+            "id": "http://jsonschema.net/linkedin",
+            "required": false
+        },
+        "ourl": {
+            "type": "string",
+            "id": "http://jsonschema.net/ourl",
+            "required": false
+        },
+        "sharethis": {
+            "type": "object",
+            "id": "http://jsonschema.net/sharethis",
+            "required": false,
+            "properties": {
+                "shares": {
+                    "type": "object",
+                    "id": "http://jsonschema.net/sharethis/shares",
+                    "required": false,
+                    "properties": {
+                        "ALL": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/ALL",
+                            "required": false
+                        },
+                        "All": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/All",
+                            "required": false
+                        },
+                        "Facebook": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/Facebook",
+                            "required": false
+                        },
+                        "LinkedIn": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/LinkedIn",
+                            "required": false
+                        },
+                        "Linkedin": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/Linkedin",
+                            "required": false
+                        },
+                        "Twitter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/Twitter",
+                            "required": false
+                        },
+                        "Yammer": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/Yammer",
+                            "required": false
+                        },
+                        "adfgfsafs": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/adfgfsafs",
+                            "required": false
+                        },
+                        "blogger": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/blogger",
+                            "required": false
+                        },
+                        "copy": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/copy",
+                            "required": false
+                        },
+                        "delicious": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/delicious",
+                            "required": false
+                        },
+                        "email": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/email",
+                            "required": false
+                        },
+                        "evernote": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/evernote",
+                            "required": false
+                        },
+                        "facebook,tumbler": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/facebook,tumbler",
+                            "required": false
+                        },
+                        "facebook,twitter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/facebook,twitter",
+                            "required": false
+                        },
+                        "facebook": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/facebook",
+                            "required": false
+                        },
+                        "face": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/face",
+                            "required": false
+                        },
+                        "fackebook": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/fackebook",
+                            "required": false
+                        },
+                        "fsf": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/fsf",
+                            "required": false
+                        },
+                        "goog": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/goog",
+                            "required": false
+                        },
+                        "google ": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/google ",
+                            "required": false
+                        },
+                        "google-plus": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/google-plus",
+                            "required": false
+                        },
+                        "google.ca": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/google.ca",
+                            "required": false
+                        },
+                        "google_plus": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/google_plus",
+                            "required": false
+                        },
+                        "google": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/google",
+                            "required": false
+                        },
+                        "googleplus": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/googleplus",
+                            "required": false
+                        },
+                        "googleplys": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/googleplys",
+                            "required": false
+                        },
+                        "gooh": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/gooh",
+                            "required": false
+                        },
+                        "gooogle": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/gooogle",
+                            "required": false
+                        },
+                        "gooogleplus": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/gooogleplus",
+                            "required": false
+                        },
+                        "http://24-7pressrelease.com/press-release/watch-former-nfl-player-mark-walczak-sleep-overnight-sleep-study-at-the-american-sleep-amp-breathing-academy-conference-has-former-az-cardinals-nfl-player-mark-walczak-sleeping-for-a-cause-383798.php": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/http://24-7pressrelease.com/press-release/watch-former-nfl-player-mark-walczak-sleep-overnight-sleep-study-at-the-american-sleep-amp-breathing-academy-conference-has-former-az-cardinals-nfl-player-mark-walczak-sleeping-for-a-cause-383798.php",
+                            "required": false
+                        },
+                        "instagram": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/instagram",
+                            "required": false
+                        },
+                        "jandersen@doner.com": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/jandersen@doner.com",
+                            "required": false
+                        },
+                        "linkden": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/linkden",
+                            "required": false
+                        },
+                        "linkedin": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/linkedin",
+                            "required": false
+                        },
+                        "myspace": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/myspace",
+                            "required": false
+                        },
+                        "no": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/no",
+                            "required": false
+                        },
+                        "pinit": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/pinit",
+                            "required": false
+                        },
+                        "pinterest": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/pinterest",
+                            "required": false
+                        },
+                        "pintrest": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/pintrest",
+                            "required": false
+                        },
+                        "piunterest": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/piunterest",
+                            "required": false
+                        },
+                        "plus": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/plus",
+                            "required": false
+                        },
+                        "share_this": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/share_this",
+                            "required": false
+                        },
+                        "share": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/share",
+                            "required": false
+                        },
+                        "sharethis": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/sharethis",
+                            "required": false
+                        },
+                        "stage17.com": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/stage17.com",
+                            "required": false
+                        },
+                        "stage17": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/stage17",
+                            "required": false
+                        },
+                        "st": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/st",
+                            "required": false
+                        },
+                        "stumbleupon": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/stumbleupon",
+                            "required": false
+                        },
+                        "test": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/test",
+                            "required": false
+                        },
+                        "tip": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/tip",
+                            "required": false
+                        },
+                        "toip": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/toip",
+                            "required": false
+                        },
+                        "total": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/total",
+                            "required": false
+                        },
+                        "tumblr": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/tumblr",
+                            "required": false
+                        },
+                        "twi": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/twi",
+                            "required": false
+                        },
+                        "twiter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/twiter",
+                            "required": false
+                        },
+                        "twitter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/twitter",
+                            "required": false
+                        },
+                        "twtitter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/twtitter",
+                            "required": false
+                        },
+                        "twtter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/twtter",
+                            "required": false
+                        },
+                        "twttter": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/twttter",
+                            "required": false
+                        },
+                        "vkontakte": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/vkontakte",
+                            "required": false
+                        },
+                        "whatsapp": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/whatsapp",
+                            "required": false
+                        },
+                        "www.facebook.com": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/www.facebook.com",
+                            "required": false
+                        },
+                        "yahoo": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/yahoo",
+                            "required": false
+                        },
+                        "youtube.com": {
+                            "type": "number",
+                            "id": "http://jsonschema.net/sharethis/shares/youtube.com",
+                            "required": false
+                        }
+                    }
+                },
+                "url": {
+                    "type": "string",
+                    "id": "http://jsonschema.net/sharethis/url",
+                    "required": false
+                }
+            }
+        },
+        "stumbleupon": {
+            "type": "number",
+            "id": "http://jsonschema.net/stumbleupon",
+            "required": false
+        }
+    }
+}

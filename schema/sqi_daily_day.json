@@ -1,0 +1,67 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "b-pd-sqi-daily": {
+            "type": "object",
+            "id": "http://jsonschema.net/b-pd-sqi-daily",
+            "required": false,
+            "properties": {
+                "b-pd-sqi-daily": {
+                    "type": "object",
+                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily",
+                    "required": false,
+                    "properties": {
+                        "20140706": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706",
+                            "required": false,
+                            "properties": {
+                                "day": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706/day",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]"
+                                },
+                                "pubdomain": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706/pubdomain",
+                                    "required": true,
+									"pattern": "[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "ranka": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706/ranka",
+                                    "required": false
+                                },
+                                "rankb": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706/rankb",
+                                    "required": false
+                                },
+                                "rowkey": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706/rowkey",
+                                    "required": true,
+									"pattern": "20[0-9][0-9][01][0-9][0-3][0-9]:[0-9a-zA-z]{8}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{4}-[0-9a-zA-z]{12}:[a-zA-Z0-9]*.[A-Za-z0-9]*.[A-Za-z]{2,}"
+                                },
+                                "sqi": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/b-pd-sqi-daily/b-pd-sqi-daily/20140706/sqi",
+                                    "required": false
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "status": {
+            "type": "string",
+            "id": "http://jsonschema.net/status",
+            "required": true
+        }
+    }
+}
