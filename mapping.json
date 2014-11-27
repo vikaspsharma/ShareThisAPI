@@ -25,35 +25,35 @@
 			"schema_file_name": "getUrlChannelStats.json"
 		} ,
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=www.travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?domain=www.travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
 			"schema_file_name": "sqi_daily_day.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=www.travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?domain=www.travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
 			"schema_file_name": "sqi_daily_week.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domain-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domain-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
 			"schema_file_name": "domain_daily_day.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domain-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domain-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
 			"schema_file_name": "domain_daily_week.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domainchannel-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domainchannel-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
 			"schema_file_name": "domainchannel_daily_day.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domainchannel-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?domain=travelchannel.com&filter=&hour=2014071623&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-domainchannel-daily&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
 			"schema_file_name": "domainchannel_daily_week.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?category=arts_and_entertainment%2Cautomotive%2Cshopping_beauty%2Cbusiness%2Cshopping_clothing&domain=travelchannel.com&filter=&hour=2014071620&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-category-daily&multigetset=category&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?category=arts_and_entertainment%2Cautomotive%2Cshopping_beauty%2Cbusiness%2Cshopping_clothing&domain=travelchannel.com&filter=&hour=2014071620&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-category-daily&multigetset=category&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&day=20140706",
 			"schema_file_name": "sqicategory_daily_day.json"
 		},
 		{
-			"url": "http://japi.east.sharethis.com/japi/InternalApiServlet?category=arts_and_entertainment%2Cautomotive%2Cshopping_beauty%2Cbusiness%2Cshopping_clothing&domain=travelchannel.com&filter=&hour=2014071620&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-category-daily&multigetset=category&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
+			"url": "http://japi.prod.sharethis.com/japi/InternalApiServlet?category=arts_and_entertainment%2Cautomotive%2Cshopping_beauty%2Cbusiness%2Cshopping_clothing&domain=travelchannel.com&filter=&hour=2014071620&jsoncallback=%3F&method=getPublisherMetric&metricset=b-pd-sqi-category-daily&multigetset=category&publisher=87e14ce7-dc4d-40d2-ada1-38b20bfad22c&week=20140706-20140712",
 			"schema_file_name": "sqicategory_daily_week.json"
 		}
 	]
